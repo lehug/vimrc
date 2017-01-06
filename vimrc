@@ -1,7 +1,7 @@
 syntax on
 set number
 set cindent
-set backspace=indent,eol,start
+"set backspace=indent,eol,start
 set expandtab
 set tabstop=2
 set shiftwidth=2
@@ -39,7 +39,6 @@ call vundle#begin()
   Plugin 'scrooloose/syntastic'
   Plugin 'tpope/vim-surround'
   Plugin 'ctrlpvim/ctrlp.vim'
-  Plugin 'valloric/youcompleteme'
   Plugin 'tomasr/molokai'
   Plugin 'townk/vim-autoclose'
   Plugin 'vim-airline/vim-airline'
@@ -49,6 +48,8 @@ call vundle#begin()
   Plugin 'majutsushi/tagbar'
   Plugin 'airblade/vim-gitgutter'
   Plugin 'easymotion/vim-easymotion'
+  Plugin 'xolox/vim-misc'
+  Plugin 'xolox/vim-easytags'
 "language
   Plugin 'pangloss/vim-javascript'
   Plugin 'mxw/vim-jsx'
@@ -68,3 +69,4 @@ filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和
   " :PluginClean      - 清除未使用插件,需要确认; 追加 `!` 自动批准移除未使用插件
  
   colorscheme molokai
+  nmap <F8> :TagbarToggle<CR>
