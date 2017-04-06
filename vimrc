@@ -45,7 +45,7 @@ call vundle#begin()
   Plugin 'townk/vim-autoclose'
   Plugin 'vim-airline/vim-airline'
   "Plugin 'vim-airline/vim-airline-themes'
-  Plugin 'vim-scripts/matchit'
+  Plugin 'matchit.zip'
   Plugin 'mileszs/ack.vim'
   Plugin 'scrooloose/nerdcommenter'
   Plugin 'majutsushi/tagbar'
