@@ -10,6 +10,7 @@ let &termencoding=&encoding
 set fileencodings=utf-8,gbk
 set foldmethod=syntax
 set foldlevel=2
+set hlsearch
 
 " Set font according to system
 if has("mac") || has("macunix")
